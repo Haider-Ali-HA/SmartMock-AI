@@ -61,9 +61,7 @@ export default function Navbar() {
                 <Button>Sign In</Button>
               </SignInButton>
               <SignUpButton>
-                <Button variant="outline">
-                  Sign Up
-                </Button>
+                <Button variant="outline">Sign Up</Button>
               </SignUpButton>
             </Show>
             <Show when="signed-in">
